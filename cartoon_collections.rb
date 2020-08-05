@@ -9,8 +9,9 @@ end
 def summon_captain_planet(array)
   elements = []
   array.collect do |array|
-    elements << array.collect
-    return elements.upcase
+    elements << "#{array.capitalize}!"
+  end 
+  elements
 end
 
 def long_planeteer_calls# code an argument here
@@ -21,3 +22,6 @@ def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
+
+
+
