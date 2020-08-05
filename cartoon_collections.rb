@@ -19,7 +19,7 @@ def long_planeteer_calls(array)
   i = 0
   if  i < array.length
     false 
-  else 
+  else i < array.length()
     true
   end 
 end
