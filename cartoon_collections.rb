@@ -17,10 +17,10 @@ end
 
 def long_planeteer_calls(array)
   i = 0
-  if i > array.length 
-    true 
-    elsif i < array.length
+  if  i < array.length
     false 
+  else 
+    true
   end 
 end
 
