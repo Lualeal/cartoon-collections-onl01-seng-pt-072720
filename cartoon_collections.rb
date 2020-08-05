@@ -16,7 +16,12 @@ end
 
 
 def long_planeteer_calls(array)
-  
+  i = 4
+  if i > array.length 
+    true 
+    elsif i < array.length
+    false 
+  end 
 end
 
 
